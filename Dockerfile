@@ -1,10 +1,10 @@
-FROM java:8
+FROM bitweb/java:8
 MAINTAINER BitWeb
 
 # JIRA variables
 ENV JIRA_HOME              /var/atlassian/jira
 ENV JIRA_INSTALL           /opt/atlassian/jira
-ENV JIRA_VERSION           7.3.2
+ENV JIRA_VERSION           7.2.4
 ENV DOWNLOAD_URL           https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-software-${JIRA_VERSION}.tar.gz
 
 # MySQL Connector
